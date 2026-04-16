@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "oneErp-components": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@sfc-enterprise-ui/one-erp-components-ts/mcp"
+      ],
+      "envFile": "${workspaceFolder}/.env"
+    }
+  }
+}

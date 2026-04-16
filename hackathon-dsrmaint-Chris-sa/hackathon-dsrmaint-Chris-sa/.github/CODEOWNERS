@@ -1,0 +1,13 @@
+# Global dev review (team leads)
+*                                   @shamrockfoods/dev-team-leads
+
+# Specialty reviewers – only trigger when matching paths change
+*.Web/**                            @shamrockfoods/dev-reviewers-ui
+
+*.Database/**                       @shamrockfoods/dev-reviewers-data
+
+*.API/**                            @shamrockfoods/dev-reviewers-api
+*.cs                                @shamrockfoods/dev-reviewers-api
+
+# Dynamics 365 components
+*/d365/**                             @shamrockfoods/dev-reviewers-d365
